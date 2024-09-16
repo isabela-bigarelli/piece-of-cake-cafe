@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #C9C987;
+    width: 100%;
+    height: 100px;
+}
+
+header>div{
+    position: relative;
+}
+
+#pesquisa{
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    left: 50px;
+    top: 30px;
+    border-radius: 32px;
+    display: flex;
+}
+
+#pesquisa svg{
+    height: 20px;
+    width: 23px;
+}
+
+#pesquisa>div{
+    margin-left: 10px;
+    margin-top: 7px;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 12px;
+}
+
+#lista{
+    position: absolute;
+    left: 900px;
+    top: 30px;
+}
+
+#lista>ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+#lista a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+#lista a:hover{
+    color: #FFF0F5;
+}
+
+main{
+    background-color: #FFE7BF;
+}
+
+main>div{
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    left: 550px;
+    top: -100px;
+}
+
+#logo>img{
+    height: 230px;
+    width: 244px;
+}
+
+#perfil>img{
+    object-fit: cover;
+}
+
+#perfil{
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+}
+
+#forms{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#forms>div:last-child{
+    margin-top: 20px;
+}
+
+#forms input{
+    width: 20%;
+    height: 35px;
+    border: none;
+}
+
+#forms input{
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#botao{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#botao>button{
+    width: 202px;
+    height: 37px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-size: 16px;
+    background-color: #EEDCDC;
+}
+
+#cadastre-se{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#cadastre-se a{
+    color: black;
+}
+
+#cadastre-se>p{
+    font-family: 'Inter';
+    font-size: 16px;
+    padding-bottom: 150px;
+}
+
+footer{
+    background-color: #C9C987;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    bottom: 0;
+    font-family: 'Inter';
+}
+
+footer>ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+footer svg{
+    width: 37px;
+    height: 37px;
+}
+
+footer a{
+    color: black;
+}
